@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx,html}"],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
   },
@@ -23,6 +23,7 @@ module.exports = {
       },
       fontFamily: {
         custom: ["Roboto", "sans-serif"],
+        fontPrimary: ["Poppins"],
       },
     },
   },
