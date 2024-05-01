@@ -4,8 +4,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        "hero-pattern": "url('../imagens/Menu.png')",
+        heropattern: "url('../imagens/Menu.png')",
       }),
+
+      backgroundImage: (theme) => ({
+        imgLupa: "url('../imagens/ImageLupa.svg')",
+      }),
+
+      backgroundPosition: (theme) => ({
+        "bg-position-personalizada": "1.5em ",
+      }),
+
       colors: {
         colorFund: "#EBECEE",
         primary: "#ff6600",
