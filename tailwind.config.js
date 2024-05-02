@@ -12,18 +12,26 @@ module.exports = {
       }),
 
       backgroundPosition: (theme) => ({
-        "bg-position-personalizada": "1.5em ",
+        "bg-position-personalizada": "3em ",
       }),
 
       colors: {
         colorFund: "#EBECEE",
-        primary: "#ff6600",
+        primary: "#EB9B00",
         secondary: "#3366cc",
         wite: "#fffff",
       },
+
       fontFamily: {
         custom: ["Roboto", "sans-serif"],
         fontPrimary: ["Poppins"],
+      },
+
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
       },
     },
   },
