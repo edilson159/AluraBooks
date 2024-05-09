@@ -56,12 +56,18 @@
     </section>
     <section>
       <h2
-        class="flex justify-center text-primary font-fontPrimary font-bold text-[18px] uppercase leading-[27px] items-center"
+        class="flex justify-center text-primary font-fontPrimary font-bold text-[18px] uppercase leading-[27px] items-center pb-5"
       >
         Novos lançamentos
       </h2>
       <!-- Slider main container -->
       <div class="swiper">
+        <!-- If we need pagination -->
+        <div
+          style="position: relative"
+          class="swiper-pagination top-[100px] my-[0.5em] mx-0"
+        ></div>
+
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
@@ -86,22 +92,169 @@
 
           ...
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
 
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev max-[1024]:hidden"></div>
         <div class="swiper-button-next max-[1024]:hidden"></div>
+      </div>
 
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
+      <div class="bg-wite drop-shadow-md rounded-[10px] m-[1em] p-[1em]">
+        <div class="flex justify-between">
+          <div class="">
+            <h3
+              class="text-primary font-bold font-fontPrimary text-base leading-6 w-[12rem]"
+            >
+              Talvez você também se interesse por...
+            </h3>
+            <h2
+              class="text-azull font-bold font-fontPrimary text-lg leading-[27px] my-[0.5em] mx-0 w-36"
+            >
+              Angular 11 e Firebase
+            </h2>
+            <p
+              class="font-normal text-sm leading-[21px] text-[#000000D9] mb-[1em] w-36"
+            >
+              Construindo uma aplicação integrada com a plataforma do Google.
+            </p>
+          </div>
+          <img
+            src="../imagens/imgAngular.png"
+            class="w-[188px] h-[200px]"
+            alt="imagem de um A grande"
+          />
+        </div>
+
+        <div class="flex justify-between items-center relative bottom-5">
+          <ul class="flex gap-6">
+            <li>
+              <img src="../imagens/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li>
+              <img src="../imagens/Compras.png" alt="Favoritar livro" />
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="bg-primary my-4 w-[161px] h-[48px] text-wite text-center flex items-center justify-center font-bold text-base leading-6 no-underline"
+            >Saiba mais</a
+          >
+        </div>
       </div>
     </section>
+    <section>
+      <h2
+        class="flex justify-center text-primary font-fontPrimary font-bold text-[18px] uppercase leading-[27px] items-center pb-5"
+      >
+        Mais Vendidos
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div
+          style="position: relative"
+          class="swiper-pagination top-[100px] my-[0.5em] mx-0"
+        ></div>
+
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="../imagens/Acessibilidade.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-[100%]" src="../imagens/ApacheKafka.svg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-[100%]" src="../imagens/Arquitetura.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-[100%]" src="../imagens/Gestão2.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-[100%]" src="../imagens/Javascript.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img class="w-[100%]" src="/imagens/Liderança.png" alt="" />
+          </div>
+
+          ...
+        </div>
+
+        <!-- If we need navigation buttons -->
+      </div>
+
+      <div class="bg-wite drop-shadow-md rounded-[10px] m-[1em] p-[1em]">
+        <div class="flex justify-between">
+          <div class="">
+            <img src="../imagens//Estrelinhas.png" class="mb-2" alt="" />
+            <h3
+              class="text-primary font-bold font-fontPrimary text-base leading-6 w-[12rem]"
+            >
+              Autora do mês
+            </h3>
+            <h2
+              class="text-azull font-bold font-fontPrimary text-lg leading-[27px] my-[0.5em] mx-0"
+            >
+              Juliana Agarikov
+            </h2>
+            <p
+              class="font-normal text-sm leading-[21px] text-[#000000D9] mb-[1em] w-[9.5rem]"
+            >
+              Analista de sistemas e escritora, Juliana é especialista em
+              Front-End.
+            </p>
+          </div>
+          <img
+            src="../imagens/imgEscritora.png"
+            class="w-[188px] h-[200px]"
+            alt="imagem de um A grande"
+          />
+        </div>
+
+        <div class="flex justify-between items-center">
+          <ul class="flex gap-6">
+            <li>
+              <img src="../imagens/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li>
+              <img src="../imagens/Compras.png" alt="Favoritar livro" />
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="bg-primary my-4 w-[161px] h-[48px] text-wite text-center flex items-center justify-center font-bold text-base leading-6 no-underline"
+            >Saiba mais</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="bg-azull text-wite">
+      <h2
+        class="font-light flex justify-center items-center relative top-[40px] mb-20"
+      >
+        TÓPICOS VISITADOS RECENTEMENTE
+      </h2>
+      <ul class="flex flex-wrap justify-center gap-10">
+        <li class="bg-primary p-[1em]"><a href="#">Android</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">Marketing Digital</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">Agile</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">Startups</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">HTML & CSS</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">Python</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">OO</a></li>
+        <li class="bg-primary p-[1em]"><a href="#">Java</a></li>
+      </ul>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
         spaceBetween: 10,
         slidesPerView: 3,
+        pagination: {
+          el: ".swiper-pagination ",
+          type: "bullets",
+        },
       });
     </script>
   </body>

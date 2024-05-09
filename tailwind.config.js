@@ -13,13 +13,15 @@ module.exports = {
 
       backgroundPosition: (theme) => ({
         "bg-position-personalizada": "3em ",
+        "position-initial": "position:initial ",
       }),
 
       colors: {
         colorFund: "#EBECEE",
         primary: "#EB9B00",
         secondary: "#3366cc",
-        wite: "#fffff",
+        wite: "#ffffff",
+        azull: "#002F52",
       },
 
       fontFamily: {
