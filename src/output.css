@@ -600,32 +600,16 @@ video {
   top: 100px;
 }
 
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-\[80px\] {
-  top: 80px;
-}
-
-.top-\[50px\] {
-  top: 50px;
-}
-
-.top-\[20px\] {
-  top: 20px;
-}
-
-.top-\[30px\] {
-  top: 30px;
-}
-
 .top-\[40px\] {
   top: 40px;
 }
 
 .m-5 {
   margin: 1.25rem;
+}
+
+.m-\[0\.5rem\] {
+  margin: 0.5rem;
 }
 
 .m-\[1em\] {
@@ -647,29 +631,24 @@ video {
   margin-bottom: 0.5em;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-\[1em\] {
   margin-bottom: 1em;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .inline-block {
@@ -733,10 +712,6 @@ video {
   width: 9.5rem;
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -757,6 +732,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -771,10 +750,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .rounded-\[1\.5rem\] {
@@ -882,16 +857,16 @@ video {
   font-weight: 700;
 }
 
+.font-light {
+  font-weight: 300;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
 .font-normal {
   font-weight: 400;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .uppercase {
@@ -953,6 +928,42 @@ video {
 
 .placeholder\:font-fontPrimary::placeholder {
   font-family: Poppins;
+}
+
+.placeholder\:text-base::-moz-placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-base::placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.placeholder\:font-normal::-moz-placeholder {
+  font-weight: 400;
+}
+
+.placeholder\:font-normal::placeholder {
+  font-weight: 400;
+}
+
+.placeholder\:leading-6::-moz-placeholder {
+  line-height: 1.5rem;
+}
+
+.placeholder\:leading-6::placeholder {
+  line-height: 1.5rem;
+}
+
+.placeholder\:text-azull::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(0 47 82 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-azull::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(0 47 82 / var(--tw-text-opacity));
 }
 
 .placeholder\:text-white::-moz-placeholder {

@@ -29,6 +29,12 @@ module.exports = {
         fontPrimary: ["Poppins"],
       },
 
+      borderColor: {
+        borderCustom:
+          "border-image-source: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%)",
+        borderCustom2: "border-image-slice: 1;",
+      },
+
       screens: {
         sm: "640px",
         md: "768px",
